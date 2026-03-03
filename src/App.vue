@@ -19,6 +19,7 @@
 <script setup>
 // TODO : Importer vos composants (NavBar, etc.)
 import FilmCard from './components/FilmCard.vue';
+import NavBar from './components/NavBar.vue';
 import { ref } from 'vue'
 const selected = ref(null)
 
