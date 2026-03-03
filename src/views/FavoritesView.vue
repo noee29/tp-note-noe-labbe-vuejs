@@ -12,4 +12,12 @@
 
 <script setup>
 // TODO : Importer le store des favoris
+import { useFavoritesStore } from '../stores/favorites';
+
+const fav = useFavoritesStore()
+fav.toggleFavorite(films)
+fav.favoritesCount
+fav.favorites
+
+
 </script>
