@@ -15,6 +15,7 @@
     <!-- - Emettre un evenement au clic -->
 
     <!-- - Bouton favori qui utilise le store Pinia -->
+     <button>Ajouter un film au favori</button>
 
     <p>FilmCard - A implementer</p>
   </div>
