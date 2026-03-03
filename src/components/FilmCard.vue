@@ -21,6 +21,20 @@
 </template>
 
 <script setup>
+import api from '/src/api/ghibli.js'
+import axios from 'axios'
+
+
+const getData = async () => {
+  try {
+    const response = await axios.get('https://ghibliapi.vercel.app');
+    console.log(response.data);
+  }
+  catch (error) {
+    console.log('Erreur lors de la récupération des données:', error);
+  }
+};
+
 const props = defineProps({
   image: { type: Object, required: true },
   title: { type: Object, required: true },

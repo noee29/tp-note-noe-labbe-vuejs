@@ -10,5 +10,5 @@ import { ref, computed } from 'vue'
 //   - Action : 'clearFavorites()' qui vide la liste
 
 export const useFavoritesStore = defineStore('favorites', () => {
-  // A vous de jouer !
+  // STATE
 })
