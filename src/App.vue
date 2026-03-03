@@ -3,15 +3,16 @@
     <!-- TODO : Ajouter la NavBar ici -->
 
     <!-- TODO : Ajouter <router-view /> pour afficher les pages -->
-     <h1>Studio Ghibli Explorer</h1>
-     <p>Bienvenue sur le site du Studio Ghibli Explorer, vous pouvez désormais consulter des films</p>
-     <button>Lien vers la liste des films</button>
 
-    <FilmCard
-      v-for="f in films" :key="f.id"
-      :films="f"
-      @select="selected = $event">
-    </FilmCard>
+    <nav>
+    <RouterLink to="/">Accueil</RouterLink>
+    <RouterLink to="/films">Liste films</RouterLink>
+    <RouterLink to="/films/:id">Liste détaillée des films</RouterLink>
+    <RouterLink to="/favorites">Liste des favoris</RouterLink>
+    <RouterLink to="/:pathMatch(.*)*">Page 404</RouterLink>
+    <router-view></router-view>
+    </nav>
+
   </div>
 </template>
 

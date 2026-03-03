@@ -13,7 +13,7 @@
     <div v-else-if="rt_score>=60">Afficher le score en orange</div>
     <div v-if="rt_score<60">Afficher le score en rouge</div>
     <!-- - Emettre un evenement au clic -->
-    
+
     <!-- - Bouton favori qui utilise le store Pinia -->
 
     <p>FilmCard - A implementer</p>
@@ -22,10 +22,10 @@
 
 <script setup>
 const props = defineProps({
-  image: { type: Object, required: true }
-  title: { type: Object, required: true }
-  director: { type: Object, required: true }
-  release_date: { type: Object, required: true }
+  image: { type: Object, required: true },
+  title: { type: Object, required: true },
+  director: { type: Object, required: true },
+  release_date: { type: Object, required: true },
   rt_score: { type: Object, required: true }
 })
 
