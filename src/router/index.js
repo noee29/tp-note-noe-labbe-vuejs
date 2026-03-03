@@ -2,7 +2,7 @@ import { Component } from 'react'
 import { createRouter, createWebHistory } from 'vue-router'
 
 // TODO : Importer vos vues
-import Home from './views/HomeView.vue'
+import HomeView from './views/HomeView.vue'
 import FilmDetailView from './views/FilmDetailView.vue'
 import FilmListView from './views/FilmListView'
 import FavoritesView from './views/FavoritesView'
@@ -14,7 +14,7 @@ const routes = [
   { path: '/films', name: 'Films', component: FilmListView},
   { path: '/films/:id', name: 'DetailFilm', component: FilmDetailView},
   { path: '/favorites', name: 'Favoris', component: FavoritesView},
-  { path: '/:', name: 'Page 404', component: NotFoundView}
+  { path: '/:pathMatch(.*)*', name: 'Page 404', component: NotFoundView}
 
 ];
 
