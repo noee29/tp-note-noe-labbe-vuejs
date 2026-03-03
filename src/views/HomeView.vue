@@ -4,8 +4,10 @@
     <!-- - Titre de l'application -->
      <h1>Studio Ghibli Explorer</h1>
     <!-- - Message de bienvenue -->
+     <br>
      <p>Bienvenue sur le site du Studio Ghibli Explorer, vous pouvez désormais consulter des films</p>
     <!-- - Lien/bouton vers la liste des films -->
+     <br>
      <button>Lien vers la liste des films</button>
     <h1>Home</h1>
   </div>

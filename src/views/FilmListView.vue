@@ -28,6 +28,10 @@ const error = ref('')
 const model = defineModel()
 
 // TODO : Creer le computed pour filtrer les films par titre
+const filtrage = computed(() =>
+  search.value
+)
+
 
 // TODO : Charger les films depuis l'API au montage du composant
 </script>

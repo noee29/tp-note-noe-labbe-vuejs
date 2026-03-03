@@ -1,12 +1,11 @@
-import { Component } from 'react'
 import { createRouter, createWebHistory } from 'vue-router'
 
 // TODO : Importer vos vues
 import HomeView from '../views/HomeView.vue'
 import FilmDetailView from '../views/FilmDetailView.vue'
-import FilmListView from '../views/FilmListView'
-import FavoritesView from '../views/FavoritesView'
-import NotFoundView from '../views/NotFoundView'
+import FilmListView from '../views/FilmListView.vue'
+import FavoritesView from '../views/FavoritesView.vue'
+import NotFoundView from '../views/NotFoundView.vue'
 
 const routes = [
   // TODO : Configurer vos routes ici
