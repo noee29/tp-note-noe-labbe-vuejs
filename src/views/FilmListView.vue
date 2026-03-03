@@ -13,6 +13,8 @@
     <!-- - Gerer le chargement et les erreurs -->
     <h1>Films</h1>
   </div>
+
+  <router-link to="/films">Liste des films</router-link>
 </template>
 
 <script setup>

@@ -6,6 +6,8 @@
     <!-- - Afficher un message si la liste est vide -->
     <h1>Favoris</h1>
   </div>
+
+  <router-link to="/favorites">Favoris</router-link>
 </template>
 
 <script setup>

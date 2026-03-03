@@ -9,6 +9,6 @@ const app = createApp(App)
 
 app.use(createPinia())
 // TODO : Ajouter le router a l'application
-app.use(router).mount('#app')
+app.use(router)
 
 app.mount('#app')

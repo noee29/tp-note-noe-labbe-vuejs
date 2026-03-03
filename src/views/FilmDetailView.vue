@@ -8,6 +8,8 @@
     <!-- - Bouton "Retour a la liste" -->
     <h1>Detail du film</h1>
   </div>
+
+  <router-link to="/films/:id">Liste de films détaillés</router-link>
 </template>
 
 <script setup>
